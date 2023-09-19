@@ -5,7 +5,7 @@ services:
   frontend:
     image: 'rierickson/crm-cavalcante:frontend'
     ports:
-      - '80:3000'
+      - '3000:3000' 
   # vendas_module:
   #   image: 'rierickson/crm-cavalcante:vendasimg'
   #   ports:
