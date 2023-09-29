@@ -3,18 +3,18 @@
 version: '3'
 services:
   frontend:
-    image: 'rierickson/crm-cavalcante:frontimg'
+    image: 'rierickson/crm-cavalcante:frontend'
     ports:
       - '80:3000'
-  vendas_module:
-    image: 'rierickson/crm-cavalcante:vendasimg'
-    ports:
-      - '8081:8081'
-  marketing_module:
-    image: 'rierickson/crm-cavalcante:marketingimg'
-    ports:
-      - '8082:8082'
-  analise_module:
-    image: 'rierickson/crm-cavalcante:analiseimg'
-    ports:
-      - '8083:8083'
+  # vendas_module:
+  #   image: 'rierickson/crm-cavalcante:vendasimg'
+  #   ports:
+  #     - '8081:8081'
+  # marketing_module:
+  #   image: 'rierickson/crm-cavalcante:marketingimg'
+  #   ports:
+  #     - '8082:8082'
+  # analise_module:
+  #   image: 'rierickson/crm-cavalcante:analiseimg'
+  #   ports:
+  #     - '8083:8083'
