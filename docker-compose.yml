@@ -14,7 +14,7 @@ services:
     image: 'rierickson/crm-cavalcante:marketing'
     ports:
       - '8082:80'
-  # analise_module:
-  #   image: 'rierickson/crm-cavalcante:analiseimg'
-  #   ports:
-  #     - '8083:8083'
+  analise_module:
+    image: 'rierickson/crm-cavalcante:analise'
+    ports:
+      - '8083:80'
