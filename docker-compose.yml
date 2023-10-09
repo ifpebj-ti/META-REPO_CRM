@@ -6,14 +6,14 @@ services:
     image: 'rierickson/crm-cavalcante:frontend'
     ports:
       - '80:3000'
-  # vendas_module:
-  #   image: 'rierickson/crm-cavalcante:vendasimg'
-  #   ports:
-  #     - '8081:8081'
-  # marketing_module:
-  #   image: 'rierickson/crm-cavalcante:marketingimg'
-  #   ports:
-  #     - '8082:8082'
+  vendas_module:
+    image: 'rierickson/crm-cavalcante:vendas'
+    ports:
+      - '8081:3000'
+  marketing_module:
+    image: 'rierickson/crm-cavalcante:marketing'
+    ports:
+      - '8082:80'
   # analise_module:
   #   image: 'rierickson/crm-cavalcante:analiseimg'
   #   ports:
