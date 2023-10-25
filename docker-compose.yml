@@ -9,7 +9,7 @@ services:
   vendas_module:
     image: 'rierickson/crm-cavalcante:vendas'
     ports:
-      - '8081:3000'
+      - '8088:3000'
   marketing_module:
     image: 'rierickson/crm-cavalcante:marketing'
     ports:
