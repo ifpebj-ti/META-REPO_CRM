@@ -14,7 +14,7 @@ Antes de começarmos, certifique-se de ter instalado os seguintes componentes em
 O sistema possui 4 modulos e 4 banco de dados diferentes, para que cada modulo funcione corretamente as portas defindas no docker-compose devem estar livres no sistema, são elas:
 
 * Modulo Frontend: porta 80
-* Modulo Vendas: porta 8081
+* Modulo Vendas: porta 8088
 * Modulo Marketing: porta 8082
 * Modulo Análise: porta 8083
 
